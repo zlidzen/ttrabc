@@ -1,5 +1,16 @@
 def printHelp():
-  print(""" There is app help!
+  print(
+"""
+There is app help!
+  please use following commands:
+    ttrabc -h   - for Help;
+    ttrabc -bl  - for listing brands;
+    ttrabc -blr {brand}  - for listng models of rubber in one brand;
+    ttrabc -blb {brand}  - for listng models of blade in one brand;
+    ttrabc -cr {brand:model} {brand:model}...  - for rubber compare;
+    ttrabc -cb {brand:model} {brand:model}...  - for blade compare.
+
+  GLHF.
   """)
 
 def wrongParamsCount():
